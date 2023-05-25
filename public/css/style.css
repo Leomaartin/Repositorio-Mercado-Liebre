@@ -1,0 +1,493 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+header{
+    background-color: #EAC926;
+width: 100vw;}
+body{
+    font-family: 'Roboto', sans-serif; }
+
+
+article{
+    transition: all 0.7s;
+}
+
+
+header div.burger-menu i{
+    color: #fff;
+    background-color: #1259c3;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 43%;
+    margin-right: 43%;
+    border-radius: 5px;
+    display: block;
+    margin-top: 40px;
+    }
+    main section {
+        margin-left: 8%;
+    }
+
+    header div.burger-menu{
+        text-align: center;
+    }
+    header{
+        padding-bottom: 20px;
+    }
+    main{
+        
+        width: 100vw;
+        background-color: rgb(250, 250, 250);
+        margin-top: -50px;
+        
+}
+    
+    .img-banner{
+        width: 100vw;
+        margin-bottom: -4px;
+    }
+    .cuotas{
+        text-align: center;
+    }
+    main section article{
+        margin-bottom: 10px;
+        width: 300px;
+        height: 1%;
+        margin-left: 5%;
+    }
+    .info-article{
+        display: flex;
+        position: relative;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 70%;
+        background-color: #fff;
+        justify-content: space-around;
+        margin-top: -5px;
+        border-top: #ebebeb 1px solid;
+    }
+    .precios-1{
+        width: 30%;
+    margin-top: 3%;}
+    .precios{
+        width: 30%;
+        margin-top: 3%;}
+    .descuentos{width: 70%;
+    color: #39b54a;}
+    .login{
+        display: flex;
+        flex-direction: column;
+    }
+    .login input{
+        margin-top: 20px;
+        width: 300px;
+    }
+    .login button{
+        margin-top: 20px;
+        width: 70px;
+    }
+    .login h3{
+        font-size: 16px;
+        color: #c7ab1d;
+    }
+main section article div i{
+    width: 30px;
+    height: 30px;
+    border: solid 1px #39b54a;
+    border-radius: 100%;
+    color: #39b54a;
+    font-size: 16px;
+}
+
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 0px;
+    height: 0px;
+    border: 1px solid #39b54a;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    transition: all 0.7s;
+}
+.nombre-productos{
+    display: none;
+    transition: all 0.3s;
+}
+
+footer{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 6%;
+}
+footer i{
+    color: #03264C;;
+    font-size: 2em;
+}
+.top-logo{
+    display: flex;
+    flex-wrap: wrap;
+    height: 40%;
+}
+.top-logo a img{
+    width: 100%;
+    height: 100%;
+}
+.top-logo a{
+    width: 50%;
+}
+.compra-en-cuotas{
+    text-align: center;
+    width: 100%;
+    margin-top: 4%;
+}
+.lupa{
+    
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+    background-color: #ebebeb ;
+    border:#b4b0b0 1px solid;
+    height: 32px;
+    width: 30px;
+    }
+.nose{
+    width: 100%;
+    margin-left: 40%;
+    margin-top: 14%;
+    height: 30px;
+}
+.input{
+    
+    transition: all 0.7s;
+    box-shadow:0px 0px 10px rgb(100,100,100);
+    border-top-left-radius:50px ;
+    border-bottom-left-radius:50px;
+    border: transparent 1px solid;
+    height: 100%;
+    width: 60%;
+}
+.input:hover{
+    border: 1px solid transparent;
+    box-shadow: none;
+    border-top-left-radius:none;
+    border-bottom-left-radius:none;
+}
+.buscador{
+    display: flex;
+    width: 50%; 
+    height: 20%;  
+}
+main section article img{
+    width: 100%;
+    margin: 0;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.formularios{
+display: flex;
+flex-direction: column;
+align-items: start;
+justify-content: start;
+margin-top: 25px;
+margin-left: 20%;}
+.text-field{
+padding: 5px;
+border: none;
+border-bottom: #EAC926 1px solid;
+border-radius: 50px;
+transition: all 0.7;
+}
+.nombre{
+    transition: all 0.7s;
+}
+.text-field:hover{
+    border: 1px solid #EAC926;
+    background-color: #ebebeb;
+}
+.selecciones{
+    display: flex;
+    flex-direction: row;
+}
+.botonForm{
+width: 40%;
+}
+.botones{
+    display: flex;
+    transition: all 0.7s;
+}
+.botonSumbit:hover{
+    background-color: #fff;
+}
+.botonReset:hover{
+    background-color: #fff;
+}
+.botonSumbit{
+background-color: #a5a0a0;
+color: #000;
+width: 50%;
+margin-right: 10px;
+padding: 5px;
+border-radius: 5px;
+transition: all 0.7s;
+}
+.botonReset{
+background-color: #a5a0a0;
+color: #000;
+width: 50%;
+margin-left: 10px;
+padding: 5px;
+border-radius: 5px;
+transition: all 0.7s;
+}
+.login div h3{
+    margin-top: 4%;
+}
+.login{
+    height: 40vw;
+    margin-top: 0px;
+    margin-left: 20%;
+}
+.formularios div h3{
+    font-size: 14px;
+}
+.formularios div div{
+    margin-bottom: 5px;
+}
+.formularios div{
+    margin-bottom: 25px;
+}
+.perfil div{
+    display: flex;
+}
+.perfil input{
+    margin-left: 4px;
+}
+.selecciones{
+    display: flex;
+    flex-direction: column;
+}
+.selecciones label{
+    margin-top:10px;
+}
+.selecciones input{
+    margin-left: 5px;
+}
+.fotoPerfil{
+display: flex;
+flex-wrap: wrap;
+width: 25%;
+}
+.contra input{
+    margin-top: 10px;
+}
+.nombre:hover .nombre input{
+border: red;
+}
+main section h3{
+    text-align: center;
+    padding-top: 53px;
+    margin-bottom: 53px;
+}
+main section article{
+margin-bottom:40px;
+}
+.nombre-productos{
+    margin-top: 15px;
+}
+
+header .navegador{
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul{
+    display: none;
+}
+.nombre{
+    margin-top: 8%;
+}
+.main-register h3{
+    margin-bottom: 8%;
+    transition: all 0.7s;
+    color: #c7ab1d;
+}
+.footer{
+    display: flex;
+}
+.footer div{
+    transition: all 0.4s;
+}
+.footer div i{
+    transition: all 0.4s;
+}
+.footer div:hover{
+color:#EAC926
+}
+.footer div:hover i{
+    color:#EAC926
+    }
+
+
+
+
+@media (min-width:361px){
+   main section{margin-left: 1%;}
+    .productos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .nombre-productos{
+        display: block;
+    }
+    .burger-menu{
+        display: none;
+       }
+       
+    .flex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+       main section article{
+        margin-left: 2%;
+       }
+    header nav ul li a{
+        text-decoration: none;
+        color: #000;
+        list-style-type: none; 
+        transition: all 0.4s; 
+    }
+    
+    header nav ul li{
+        list-style-type: none;
+        height: 100%;
+        width: 30%;
+        justify-content: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        transition: all 0.4s;
+    }
+    header nav ul li:hover{
+        background-color: #ebebeb;
+        box-shadow: 0px 0px 10px black;
+    }
+    header nav ul li:hover a{
+        color:gray
+    }
+    header nav ul{
+        margin-bottom: 0px;
+        display: flex;
+        justify-content: space-between;
+        margin: 4%;
+        width: 50%;
+        text-align: center;
+    }
+    }
+
+@media (min-width:769px){
+    header nav ul li a{
+        text-decoration: none;
+        color: #000;
+        list-style-type: none; 
+        transition: all 0.4s; 
+    }
+    
+    header nav ul li{
+        list-style-type: none;
+        height: 100%;
+        width: 30%;
+        justify-content: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        transition: all 0.4s;
+    }
+    header nav ul li:hover{
+        background-color: #ebebeb;
+        box-shadow: 0px 0px 10px black;
+    }
+    header nav ul li:hover a{
+        color:gray
+    }
+    header nav ul{
+        margin-bottom: 0px;
+        display: flex;
+        justify-content: space-between;
+        margin: 4%;
+        width: 50%;
+        text-align: center;
+    }
+    section h3{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+    margin-top: 40px;
+}
+main{
+    display: block;
+}
+.productos article img{
+    height: 100%;
+    width: 100%;
+}
+main section{
+   height: 100%;
+   display: block;
+}
+
+main section article{
+width: 20%;
+height: 0%;
+padding: 0px;
+margin-left: 3%;
+margin-bottom: 9%;
+
+}
+.nombre-productos{
+display: none;
+margin-top: 10px;
+}
+header nav ul li a{
+font-size: 18px;
+    }
+.descuentos{
+color: #39b54a;
+text-align: center;
+margin-top: 17px;
+width: 60%;
+}
+
+article:hover .nombre-productos{
+display: inline-block;
+text-align: center;
+    }
+article:hover {
+box-shadow:0px 0px 10px rgb(100,100,100);
+}
+article:hover i{
+transform:rotate(-90deg) ;
+}
+.precios{
+    margin-top: 7%;
+    margin-left: 10%
+}
+.precios-1{
+    margin-top: 7%;
+}
+.nombre-productos{
+    height: 100%;
+    width: 100%;
+}
+.burger-menu{
+    display: none;
+   }
+}
